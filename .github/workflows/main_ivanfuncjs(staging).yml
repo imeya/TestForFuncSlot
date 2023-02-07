@@ -41,4 +41,4 @@ jobs:
           app-name: 'ivanfuncjs'
           slot-name: 'testing'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A5985874A1374195B3A11A450DDBF7DC }}
+          publish-profile: ${{ secrets.TESTINGSECRETS }}
